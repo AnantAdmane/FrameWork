@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.comcast.crm.listenerutility.ListImpClass"/>
+  </listeners>
+  <test thread-count="2" name="Test2(failed)">
+    <classes>
+      <class name="com.comcast.crm.contacttest.CreateContactTest">
+        <methods>
+          <include name="createContactWithOrgTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="CreateContactTest"/>
+          <include name="createContactWithSupportDateTest"/>
+        </methods>
+      </class> <!-- com.comcast.crm.contacttest.CreateContactTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
